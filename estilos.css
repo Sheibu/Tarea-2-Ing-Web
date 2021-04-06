@@ -1,0 +1,62 @@
+form{
+    margin: 0px;
+    width: 95%;
+    padding: 1em;
+    border: 1px solid #ccc;
+    
+}
+form ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+label{
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+}
+input{
+    width: 50%;
+    height: 20px;
+    border: 1px solid #999;
+    margin: 3px;
+}
+input.check{
+    width: 3em;
+}
+input.radio{
+    width: 1em;
+}
+textarea{
+    width: 65%;
+    height: 80px;
+    border: 1px solid #999;
+}
+.button{
+    padding-left: 35%;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: 0px;
+    padding: 10px;
+    float: left;
+    margin-right: 5em;
+    
+}
+
+li span,textarea,#nivelProgr{
+    margin-left: 1em;
+}
+
+#mensaje{
+    display: none;
+}
+
+/*para eliminar las flechas de los campos tipo number*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
